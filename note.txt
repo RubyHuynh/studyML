@@ -1,0 +1,15 @@
+apt install python-setuptools
+  140  apt install python-dev
+  152  pip install --upgrade pip --no-cache-dir
+  155  python get-pip.py
+  156  pip install --upgrade setuptools
+  157  which pip
+  160  /usr/local/bin/pip install imageio
+
+
+pip3 is corrupted as well, reinstall it  
+
+162  python3 get-pip.py
+  163  pip3 list
+  164  /usr/local/bin/pip3 install imageio
+  165  /usr/local/bin/pip3 install joblib
