@@ -12,13 +12,17 @@ weqwqewq
 '''
 y = "hhee"
 yy = {}
-aa = {}
+aa = []
 pp = None
 
+print(type(x))
 print(type(x))
 print(type(yy))
 print(type(aa))
 print(type(pp))
+
+x = ("apple", "banana", "cherry")
+print(type(x))
 
 
 a, b, c = 9, "Mycroft", [2, 3,4,5]
@@ -76,3 +80,71 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+
+
+x = ["apple", "banana", "cherry"]
+print(type(x))
+
+x = [3,4,5]
+print(type(x))
+
+
+
+print ("=============\n\n\n\n Data TYPES \n")
+x = "hello word"
+print ("hello word ",  type(x))
+x = 20
+print ("20",  type(x), x)
+
+x = 20.5
+print ("20.5 ",  type(x), x)
+x = 4j
+print ("4j ",  type(x), x)
+x = ["apple", "pie"]
+print ("[\"apple\", \"pie\"] ",  type(x), x)
+x = ("pine", "apple")
+print ("(\"apple\", \"pie\") ",  type(x), x)
+x = range (34, 40)
+print ("range(3)",  type(x), x)
+x = {"name" : "Eurus", "age" : 32}
+print ("\"name\" : \"Eurus\", \"age\" : 32",  type(x), x)
+x = frozenset({"apple", "pie", "is", "hot"})
+print ("wth is fronzenset used for?",  type(x), x)
+x = True
+print ("True",  type(x), x)
+x = b"Hello"
+print ("bHello?",  type(x), x)
+x = bytearray(5)
+print ("bytearray(5)",  type(x), x)
+x = memoryview(bytes(5))
+print ("memoryview((bytes(5))",  type(x), x)
+x = None
+print ("None",  type(x), x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
