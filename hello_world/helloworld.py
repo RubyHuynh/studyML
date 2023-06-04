@@ -183,12 +183,38 @@ if "expensive" not in txt:
 
 
 
+b = "		It's raiining 			    tonight		"
+print(b[2:7])
+print(b[-2:-7])
+print(b[:7])
+print(b[7:])
+print(b.upper())
+print(b.lower())
+print(b.strip())
+print(b.replace("\t","<tab>"))
+print(b.split("<tab>"))
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+age =32
+txt = "Ruby Huynh has just turn {}"
+print(txt.format(age))
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
 
 
 
-
-
-
-
-
-
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
